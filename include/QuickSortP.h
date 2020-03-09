@@ -16,10 +16,6 @@ public:
   bool isCasoMinimo() final;
   std::pair<Problema*, Problema*> descomponer() final;
   void solver(Solucion* s) final;
-  void setIni(size_t ini);
-  void setFin(size_t fin);
-  size_t getIni() const;
-  size_t getFin() const;
 };
 
 } // namespace daa
